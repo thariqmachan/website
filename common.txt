@@ -1,0 +1,20 @@
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+------------------------------------------------
+for making it responsive 
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+--------------------------------------------------
+ for making the heading center with correct dimensions
+
+.testimonials{
+    width: 80%;
+    text-align: center;
+     padding-top: 50px ;
+     margin: auto;
+}
